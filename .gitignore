@@ -1,0 +1,35 @@
+# Build & Compiled artifacts
+build/
+bin/
+lib/
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exp
+*.ptx
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+.eggs/
+cuda_env/
+venv/
+.pytest_cache/
+
+# Output directories
+output/
+*.jpg
+*.png
+*.mp4
+!docs/assets/*.png
+!docs/assets/*.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
